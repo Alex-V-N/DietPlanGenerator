@@ -1,0 +1,123 @@
+﻿@model AdminPanel.Models.Admins.ProfileVM
+@{
+    ViewData["Title"] = "Admin Profile";
+    Layout = "_Layout";
+}
+
+@if (!string.IsNullOrEmpty(Model.Error))
+{
+    <!--Error message-->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <i class="fa fa-exclamation-circle me-2"></i>@Model.Error
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <!--Success message-->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <i class="fa fa-exclamation-circle me-2"></i>@Model.Message
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Basic Information Form -->
+<div class="container-fluid pt-4 px-4">
+    <div class="row g-4">
+        <div class="col-sm-12 col-xl-6">
+            <div class="bg-light rounded h-100 p-4">
+                <h6 class="mb-4">Basic Information</h6>
+                <form method="post" action="/Admins/Update">
+                    <div class="mb-3">
+                        <label for="AdminEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="Email" id="AdminEmail" aria-describedby="admin_email" value="@Model.Email">
+                        @Html.ValidationMessageFor(m => m.Email, null, new {@class = "error" })
+                        @Html.ValidationMessage("Email-format", null, new { @class = "error" })
+                    </div>
+                    <div class="mb-3">
+                        <label for="AdminOldPassword" class="form-label">Old Password</label>
+                        <input type="password" name="Password" class="form-control" id="AdminOldPassword">
+                        @Html.ValidationMessageFor(m => m.Password, null, new {@class = "error" })
+                    </div>
+                    <div class="mb-3">
+                        <label for="AdminNewPasword" class="form-label">New Password</label>
+                        <input type="password" name="NewPassword" class="form-control" id="AdminNewPasword">
+                    </div>
+                    <div class="mb-3">
+                        <label for="AdminFirstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="FirstName" id="AdminFirstName" aria-describedby="admin_first_name" value="@Model.FirstName">
+                        @Html.ValidationMessageFor(m => m.FirstName, null, new {@class = "error" })
+                    </div>
+                    <div class="mb-3">
+                        <label for="AdminELastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="LastName" id="AdminELastName" aria-describedby="admin_last_name" value="@Model.LastName">
+                        @Html.ValidationMessageFor(m => m.LastName, null, new {@class = "error" })
+                    </div>
+                    <fieldset class="row mb-3">
+                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="Gender"
+                                    id="AdminGenderMale" value="Male" checked>
+                                <label class="form-check-label" for="AdminGenederMale">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="Gender"
+                                    id="AdminGenderFemale" value="Female">
+                                <label class="form-check-label" for="AdminGenderFemale">
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="mb-3 form-check">
+                        <label for="AdminDOB" class="form-label">Date Of Birth</label>
+                        <input type="date" class="form-control" name="DOB" id="AdminDOB" aria-describedby="admin_fdate_of_birth" value="@Model.DOB.GetValueOrDefault().Date.ToString("yyyy-MM-dd")" asp-format="{0:yyyy-MM-dd}">
+                        @Html.ValidationMessageFor(m => m.DOB, null, new {@class = "error" })
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="SaveChangesCheck">
+                        <label class="form-check-label" for="SaveChangesCheck">Save these changes!</label>
+                    </div>
+                    <button type="submit" id="AdminProfileSaveChanges" class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-12 col-xl-6">
+            <form method="post" action="/Admins/UploadFileAction" enctype="multipart/form-data">
+                 <div class="bg-light rounded h-100 p-4">
+                     <h6 class="mb-4">Change profile picture</h6>
+                     <div class="mb-3">
+                         <label for="formFile" class="form-label">Choose a profile picture</label>
+                         <input class="form-control" name="FileName" type="file" id="formFile" accept="image/*">
+                     </div>
+                     <div class="mb-3">
+                         <center>
+                            @if (string.IsNullOrEmpty(Model.ProfilePhotoName))
+                            {
+                                <img class="rounded-circle" src="~/DASHMIN/img/profile-avatar.png" alt="" style="width: 150px; height: 150px;">
+                            }
+                            else
+                            {
+                                <img class="rounded-circle" src="~/DASHMIN/Admins/ProfilePhotos/@Model.ProfilePhotoName" alt="" style="width: 150px; height: 150px;">
+                            }
+                         </center>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                 </div>
+             </form>   
+        </div>
+    </div>
+</div>
+<!-- Basic Information Form -->

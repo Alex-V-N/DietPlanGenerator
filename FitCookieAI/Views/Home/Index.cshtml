@@ -1,0 +1,444 @@
+﻿@model FitCookieAI.Models.SubmitInputVM
+@{
+    ViewData["Title"] = "Home";
+}
+
+<p class="text-center mb-4">Hello! I'm here to help you with your nutrition needs. To get started, please provide some information about yourself.</p>
+<form id="register-account-form" class="register-account-form" action="/Home/SubmitInput" method="post">
+    <!-- progressbar -->
+	<ul class="progressbar">
+		<li id="first-fieldset-li" class="active"></li>
+		<li id="second-fieldset-li"></li>
+		<li id="third-fieldset-li"></li>
+		<li id="fourth-fieldset-li"></li>
+		<li id="fifth-fieldset-li"></li>
+		<li id="sixth-fieldset-li"></li>
+		<li id="last-fieldset-li"></li>
+	</ul>
+	<!-- fieldsets -->
+	<fieldset id="first-fieldset" class="row">
+		<div class="row">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-6">
+				<center>
+					<h3>Welcome</h3>
+				</center>
+			</div>
+			<div class="col-lg-3"></div>
+		</div>
+		@if (!string.IsNullOrEmpty(this.Context.Session.GetString("Email")))
+		{
+			<div class="row">
+				<div class="col-lg-12">
+					<center>
+						<h3>@this.Context.Session.GetString("FirstName") @this.Context.Session.GetString("LastName")</h3>
+					</center>
+				</div>
+			</div>
+			<div id="authenticated-1" data-wow-delay="0.1s">
+				<div class="row">
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						<center>
+							<h3 id="user-names"></h3>
+						</center>
+						<center>
+							<h4>Ready for a new diet plan?</h4>
+							<h4>Click Next!</h4>
+						</center>
+					</div>
+					<div class="col-lg-3">
+						<button type="button" class="btn-logout btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Logout</button>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<br />
+			<button type="button" name="next" id="btn-next-step-1.1" class="next btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Next</button>
+		}
+		else
+		{
+			<div class="col-lg-12">
+				<div id="loading-container2" class="container-xxl py-5">
+					<div class="container py-5 px-lg-5">
+						<div class="row justify-content-center text-center">
+							<div class="col-lg-12 justify-content-center">
+								<div id="loading-animation" class="justify-content-center">
+									<img src="~/img/fitcookieloading_gif.gif" alt="Loading..." />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="authentication-options">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="HasAccount" id="HasAccount-true" value="true" checked>
+						<label class="form-check-label" for="HasAccount-true">
+							I have an account
+						</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="HasAccount" id="HasAccount-false" value="false">
+						<label class="form-check-label" for="HasAccount-false">
+							I don' have an account
+						</label>
+					</div>
+				</div>
+				<div id="hasAccount">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="email" class="form-control" id="email-login" name="Email" placeholder="Your Email" required>
+								<label for="email-login">Email</label>
+							</div>
+							<small class="required">required</small>
+							<span id="email-validation-login" class="error"></span>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="password" class="form-control" id="password-login" name="Password" placeholder="Password" required>
+								<label for="password-login">Password</label>
+							</div>
+							<small class="required">required</small>
+							<span id="password-validation" class="error"></span>
+						</div>
+					</div>
+					<div id="login-authentication-error" class="row">
+						<div class="col-lg-3"></div>
+						<div class="col-lg-6">
+							<center>
+								<span class="error" id="login-authentication-error-message"></span>
+							</center>
+						</div>
+						<div class="col-lg-3"></div>
+					</div>
+				</div>
+				<div id="noAccount">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="form-floating">
+								<input type="email" class="form-control" id="email-signup" name="Email" placeholder="Your Email" required>
+								<label for="email-signup">Email</label>
+							</div>
+							<small class="required">required</small>
+							<span id="email-validation-signup" class="error"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="text" class="form-control" id="firstName" name="FirstName" placeholder="First Name" required>
+								<label for="firstName">First Name</label>
+							</div>
+							<small class="required">required</small>
+							<span id="firstName-validation" class="error"></span>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="text" class="form-control" id="lastName" name="LastName" placeholder="Last Name" required>
+								<label for="lastName">Last Name</label>
+							</div>
+							<small class="required">required</small>
+							<span id="lastName-validation" class="error"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="password" class="form-control" id="password" name="Password" placeholder="Password" required>
+								<label for="password">Password</label>
+							</div>
+							<small class="required">required</small>
+							<span id="password-validation" class="error"></span>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" placeholder="Confirm Password" required>
+								<label for="confirmPassword">Confirm Password</label>
+							</div>
+							<small class="required">required</small>
+							<span id="confirmPassword-validation" class="error"></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<select id="GenderList" name="Gender" class="form-select" tabindex="-98">
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+								</select>
+								<label for="GenderList">Gender</label>
+							</div>
+							<small class="required">required</small>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-floating">
+								<input type="date" class="form-control" id="age" name="DOB" placeholder="Your Date of Birth" required>
+								<label for="DOB">Your Date Of Birth</label>
+							</div>
+							<small class="required">required</small>
+							<span id="age-validation" class="error"></span>
+						</div>
+					</div>
+					<div id="sign-up-authentication-error" class="row">
+						<div class="col-lg-3"></div>
+						<div class="col-lg-6">
+							<center>
+								<span class="error" id="sign-up-authentication-error-message"></span>
+							</center>
+						</div>
+						<div class="col-lg-3"></div>
+					</div>
+				</div>
+				<div id="authenticated" data-wow-delay="0.1s">
+					<div class="row">
+						<div class="col-lg-3"></div>
+						<div class="col-lg-6">
+							<center>
+								<h3 id="user-names"></h3>
+							</center>
+							<center>
+								<h4>Ready for a new diet plan?</h4>
+								<h4>Click Next!</h4>
+							</center>
+						</div>
+						<div class="col-lg-3">
+							<button type="button" class="btn-logout btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Logout</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<br />
+			<button type="button" name="next" id="btn-next-step-1" class="next btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Next</button>
+			<button type="button" name="Login" id="btn-login" class="btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Login</button>
+			<button type="button" name="SignUp" id="btn-sign-up" class="btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Sign Up</button>
+		}
+	</fieldset>
+	<fieldset id="second-fieldset" class="row">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<input type="number" class="form-control" id="weight" name="Weight" placeholder="Your Current Weight in kg" step="0.01" required>
+					<label for="weight">Your Current Weight in kg</label>
+				</div>
+				<small class="required">required</small>
+				<span id="weight-validation" class="error"></span>
+			</div>
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<input type="number" class="form-control" id="targetWeight" name="TargetWeight" placeholder="Your Target Weight in kg" step="0.01" required>
+					<label for="targetWeight">Your Target Weight in kg</label>
+				</div>
+				<small class="required">required</small>
+				<span id="targetWeight-validation" class="error"></span>
+			</div>
+		</div>
+		<br />
+		<button type="button" name="next" id="btn-next-step-2" class="next btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Next</button>
+		<br />
+		<br />
+		<button type="button" name="previous" class="previous btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Previous</button>
+	</fieldset>
+	<fieldset id="third-fieldset" class="row">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<input type="number" class="form-control" id="height" name="Height" placeholder="Your Height in cm" step="0.01" required>
+					<label for="height">Your Height in cm</label>
+				</div>
+				<small class="required">required</small>
+				<span id="height-validation" class="error"></span>
+			</div>
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<input type="number" class="form-control" id="BMI" name="BMI" placeholder="Your BMI" readonly required>
+					<label for="BMI">Your BMI</label>
+				</div>
+				<br />
+				<span id="BMI-validation" class="error"></span>
+			</div>
+		</div>
+		<br />
+		<button type="button" name="next" id="btn-next-step-3" class="next btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Next</button>
+		<br />
+		<br />
+		<button type="button" name="previous" class="previous btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Previous</button>
+	</fieldset>
+	<fieldset id="fourth-fieldset" class="row">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<input type="text" class="form-control" id="ocupation" name="Ocupation" placeholder="Your Current Ocupation" required>
+					<label for="ocupation">Your Current Ocupation</label>
+				</div>
+				<small class="required">required</small>
+				<br />
+				<span id="ocupation-validation" class="error"></span>
+			</div>
+			<br />
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<select id="ActivityLevelList" name="ActivityLevel" class="form-select" tabindex="-98">
+						<option value="Sedentary">Sedentary</option>
+						<option value="Lightly Active">Lightly Active</option>
+						<option value="Moderately Active">Moderately Active</option>
+						<option value="Very Active">Very Active</option>
+						<option value="Extremely Active">Extremely Active</option>
+					</select>
+					<label for="ActivityLevelList">ActivityLevel</label>
+				</div>
+			</div>
+		</div>
+		<br />
+		<button type="button" name="next" id="btn-next-step-4" class="next btn btn-primary-gradient rounded-pill py-3 px-5">Next</button>
+		<br />
+		<br />
+		<button type="button" name="previous" class="previous btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Previous</button>
+	</fieldset>
+	<fieldset id="fifth-fieldset" class="row">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<textarea cols="30" rows="10" class="form-control" id="DietaryRestrictions" name="DietaryRestrictions"></textarea>
+					<label for="DietaryRestrictions">Dietary Restrictions</label>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<textarea cols="30" rows="10" class="form-control" id="foodPreferences" name="FoodPreferences"></textarea>
+					<label for="foodPreferences">Food Preferences</label>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+		<button type="button" name="next" id="btn-next-step-5" class="next btn btn-primary-gradient rounded-pill py-3 px-5">Next</button>
+		<br />
+		<br />
+		<button type="button" name="previous" class="previous btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Previous</button>
+	</fieldset>
+	<fieldset id="sixth-fieldset" class="row">
+		<div class="col-lg-12">
+			<div class="form-floating">
+				<select id="HealthGoalsList" name="HealthGoal" class="form-select" tabindex="-98">
+					<option value="Lose Weight">Lose Weight</option>
+					<option value="Gain Weight">Gain Weight</option>
+					<option value="Maintain Weight">Maintain Weight</option>
+					<option value="Improve Athletic Performance">Improve Athletic Performance</option>
+					<option value="Improve Overall Health">Improve Overall Health</option>
+					<option value="Manage a Health Condition">Manage a Health Condition</option>
+				</select>
+				<label for="HealthGoalsList">Health Goal</label>
+			</div>
+		</div>
+		<br />
+		<br />
+		<button type="button" name="next" id="btn-next-step-6" class="next btn btn-primary-gradient rounded-pill py-3 px-5">Next</button>
+		<br />
+		<br />
+		<button type="button" name="previous" class="previous btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Previous</button>
+	</fieldset>
+	<fieldset id="last-fieldset" class="row">
+		<div class="col-lg-12">
+			<center>
+				<h1>Stripe Payment</h1>
+			</center>
+		</div>
+		<form id="payment-form">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="form-floating">
+						<input type="number" class="form-control" id="amount-placeholder" placeholder="Amount" value="5" disabled>
+						<label for="amount-placeholder">Amount:</label>
+					</div>
+					<input type="hidden" id="amount" name="amount" value="150" required>
+				</div>
+				<div class="col-lg-6">
+					<div class="form-floating">
+						<input type="text" class="form-control" id="currencyt-placeholder" placeholder="Currency" value="£" disabled>
+						<label for="currency">Currency:</label>
+					</div>
+					<input type="hidden" id="currency-placeholder" name="currency" value="GBR" required>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="form-floating">
+						<textarea cols="30" rows="30" class="form-control" id="description-placeholder" disabled>A diet plan for a user</textarea>
+						<label for="description-placeholder">Description:</label>
+					</div>
+					<input type="hidden" id="description" name="description" value="A diet plan for a user" required>
+				</div>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-lg-12">
+					<label for="card-element">Card Details:</label>
+					<div id="card-element" class="form-control"></div>
+					<div id="card-errors" role="alert"></div>
+				</div>
+			</div>
+			<br/>
+			<button id="submit-payment" class="btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Submit Payment</button>
+		</form>
+		<center>
+			<span id="general-validation-error" class="error"></span>
+		</center>
+		<br />
+		<button type="button" name="previous" class="previous btn btn-primary-gradient rounded-pill py-3 px-5 col-12 text-center">Previous</button>
+		<br />
+	</fieldset>
+</form>
+
+<div id="loading-container" class="container-xxl py-5">
+	<div class="container py-5 px-lg-5">
+		<div class="row justify-content-center text-center">
+			<div class="col-lg-12 justify-content-center">
+				<div id="loading-animation" class="justify-content-center">
+					<img src="~/img/fitcookieloading_gif.gif" alt="Loading..." />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="result-container" class="container-xxl py-5">
+	<div class="container py-5 px-lg-5">
+		<div id="pdf-content">
+			<div class="text-center wow fadeInUp">
+				<h5 class="text-primary-gradient fw-medium">Result</h5>
+				<h1 class="mb-5">Your personalized plan!</h1>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-9">
+					<div class="wow fadeInUp">
+						<span id="result">
+
+						</span> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="row justify-content-center">
+			<div class="col-lg-9">
+				<div class="row fadeInUp">
+					<div class="col-12 text-center">
+						<button id="download-btn" class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Download as pdf</button>
+					</div>
+				</div>
+				<br />
+				<div class="row fadeInUp">
+					<div class="col-12 text-center">
+						<button id="print-btn" class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Print</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

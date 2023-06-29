@@ -1,0 +1,43 @@
+﻿@model AdminPanel.Models.AdminStatuses.AdminStatusesIndexVM
+@{
+    ViewData["Title"] = "Admin Statuses List";
+    Layout = "_Layout";
+}
+
+<!-- Admins Table Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-light text-center rounded p-4">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <h6 class="mb-0">Admin Statuses</h6>
+        </div>
+        <div class="table-responsive">
+            <table class="table text-start align-middle table-bordered table-hover mb-0">
+                <thead>
+                    <tr class="text-dark">
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var status in Model.AdminStatuses)
+                    {
+                        <tr>
+                            <td>@status.Id</td>
+                            <td>@status.Name</td>
+                            <td>
+                                <a class="btn btn-sm btn-primary" href="/AdminStatuses/AdminStatusDetails">Detail</a>
+                                @if (this.Context.Session.GetInt32("StatusId") == 1)
+                                {
+                                    <a class="btn btn-sm btn-warning" href="/AdminStatuses/AdminStatusEdit">Edit</a>
+                                    <a class="btn btn-sm btn-danger" href="/AdminStatuses/Delete">Delete</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Admins Table Start End -->

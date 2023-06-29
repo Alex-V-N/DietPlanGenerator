@@ -1,0 +1,761 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FitCookieAI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FitCookieAI.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\css\\SignUp.css",
+      "PackagePath": "staticwebassets\\css\\SignUp.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\css\\checkout.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\SnapshotV2_1.png",
+      "PackagePath": "staticwebassets\\img\\SnapshotV2_1.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\SnapshotV2_2.png",
+      "PackagePath": "staticwebassets\\img\\SnapshotV2_2.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\SnapshotV2_3.png",
+      "PackagePath": "staticwebassets\\img\\SnapshotV2_3.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\SnapshotV2_4.png",
+      "PackagePath": "staticwebassets\\img\\SnapshotV2_4.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\SnapshotV2_5.png",
+      "PackagePath": "staticwebassets\\img\\SnapshotV2_5.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\bg-bottom.png",
+      "PackagePath": "staticwebassets\\img\\bg-bottom.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\bg-circle.png",
+      "PackagePath": "staticwebassets\\img\\bg-circle.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\bg-top.png",
+      "PackagePath": "staticwebassets\\img\\bg-top.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\bg-triangle.png",
+      "PackagePath": "staticwebassets\\img\\bg-triangle.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\cookie-gif.gif",
+      "PackagePath": "staticwebassets\\img\\cookie-gif.gif"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\fitcookie-logo.png.webp",
+      "PackagePath": "staticwebassets\\img\\fitcookie-logo.png.webp"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\fitcookieloading_gif.gif",
+      "PackagePath": "staticwebassets\\img\\fitcookieloading_gif.gif"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\loading-cookie.gif",
+      "PackagePath": "staticwebassets\\img\\loading-cookie.gif"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\openAI_logo.png",
+      "PackagePath": "staticwebassets\\img\\openAI_logo.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\img\\screenshot-frame.png",
+      "PackagePath": "staticwebassets\\img\\screenshot-frame.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\js\\SignUp.js",
+      "PackagePath": "staticwebassets\\js\\SignUp.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\js\\checkout.js",
+      "PackagePath": "staticwebassets\\js\\checkout.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\Projects\\FitCookieAIClient\\FitCookieAI\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FitCookieAI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FitCookieAI.props",
+      "PackagePath": "build\\FitCookieAI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FitCookieAI.props",
+      "PackagePath": "buildMultiTargeting\\FitCookieAI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FitCookieAI.props",
+      "PackagePath": "buildTransitive\\FitCookieAI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

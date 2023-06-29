@@ -1,0 +1,68 @@
+﻿@model AdminPanel.Models.Payments.PaymentsIndexVM
+@{
+    ViewData["Title"] = "Payments List";
+    Layout = "_Layout";
+}
+
+<!-- Admins Table Start -->
+<div class="container-fluid pt-4 px-4">
+    @if (Model.Payments.Count == 0)
+    {
+        <center>
+            <h1 class="display-3">No Payments have been created yet!</h1>
+        </center>
+    }
+    else
+    {
+         <div class="bg-light text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <h6 class="mb-0">Payments</h6>
+            </div>
+            <div class="table-responsive">
+                <table class="table text-start align-middle table-bordered table-hover mb-0">
+                    <thead>
+                        <tr class="text-dark">
+                            <th scope="col">Id</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Currency</th>
+                            <th scope="col">User</th>
+                            <th scope="col">Source</th>
+                            <th scope="col">Created At</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var payment in Model.Payments)
+                        {
+                            <tr>
+                                <td>@payment.Id</td>
+                                <td>@payment.Amount</td>
+                                <td>@payment.Description</td>
+                                <td>@payment.Currency</td>
+                                @foreach (var user in Model.Users)
+                                {
+                                    if (payment.UserId == user.Id)
+                                    {
+                                        <td>@user.Email</td>
+                                    }
+                                }
+                                <td>@payment.Source</td>
+                                <td>@payment.CreatedAt</td>
+                                <td>
+                                    <a class="btn btn-sm btn-primary" href="/Payments/PaymentDetails">Detail</a>
+                                    @if (this.Context.Session.GetInt32("StatusId") == 1)
+                                    {
+                                        <a class="btn btn-sm btn-warning" href="/APayments/PaymentEdit">Edit</a>
+                                        <a class="btn btn-sm btn-danger" href="/Payments/Delete">Delete</a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+<!-- Admins Table Start End -->

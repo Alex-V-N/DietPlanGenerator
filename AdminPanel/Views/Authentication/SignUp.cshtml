@@ -1,0 +1,54 @@
+﻿@model AdminPanel.Models.Authentication.SignUpVM
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "_Layout_Authentication";
+}
+
+<!-- Sign Up Start -->
+<form method="post" action="/Authentication/SignUp" class="container-fluid">
+    <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+            <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                    <a href="index.html" class="">
+                        <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>DASHMIN</h3>
+                    </a>
+                    <h3>Sign Up</h3>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" name="Email" id="floatingEmail" placeholder="name@example.com">
+                    <label for="floatingEmail">Email address</label>
+                </div>
+                <div class="form-floating mb-4">
+                    <input type="password" class="form-control" name="Password" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="FirstName" id="floatingFirstName" placeholder="jhondoe">
+                    <label for="floatingFirstName">First Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="LastName" id="floatingLastName" placeholder="jhondoe">
+                    <label for="floatingLastName">Last Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control" name="DOB" id="floatingDOB">
+                    <label for="floatingDOB">Date of birth</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <select id="GenderList" name="Gender" class="form-select" tabindex="-98">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <label for="GenderList">Gender</label>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <a href="">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign Up</button>
+                <p class="text-center mb-0">Already have an Account? <a href="/Authentication/Login">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+</form>
+<!-- Sign Up End -->

@@ -1,0 +1,709 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>@ViewData["Title"] - FitCookieAI</title>
+
+    <meta content="FitCookieAI" name="keywords">
+    <meta content="Diet Plan Generator" name="description">
+
+   <!-- Favicon -->
+    <link href="~/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+    <link href="~/css/SignUp.css" rel="stylesheet">
+    
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img class="img-fluid" src="~/img/fitcookie-logo.png.webp" alt="" />
+                    <span class="m-0">AI</span>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#feature" class="nav-item nav-link">Features</a>
+                        <a href="#generator" class="nav-item nav-link">Diet plan generator</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="#generator" class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Generate a diet plan</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5">
+                        <div class="col-lg-8 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Fit Cookie - Your Personal Nutritionist</h1>
+                            <p class="text-white pb-3 animated slideInDown">Welcome to the future of personalized nutrition. 
+                                We've taken the guesswork out of healthy eating, providing you with custom-made, scientifically-backed diet plans tailored to your needs and lifestyle !
+                            </p>
+                            <a href="#about" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
+                            <a href="#contact" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="owl-carousel screenshot-carousel">
+                                <img class="img-fluid" src="~/img/SnapshotV2_1.png" alt="FitCookieUK_Snapshot">
+                                <img class="img-fluid" src="~/img/SnapshotV2_2.png" alt="FitCookieUK_Snapshot">
+                                <img class="img-fluid" src="~/img/SnapshotV2_3.png" alt="FitCookieUK_Snapshot">
+                                <img class="img-fluid" src="~/img/SnapshotV2_4.png" alt="FitCookieUK_Snapshot">
+                                <img class="img-fluid" src="~/img/SnapshotV2_5.png" alt="FitCookieUK_Snapshot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">About</h5>
+                        <h1 class="mb-4">Welcome to our AI-powered diet plan generator!</h1>
+                        <p class="mb-4">
+                            We believe nutrition is not one-size-fits-all. 
+                            That's why our AI-enabled Diet Plan Generator uses sophisticated algorithms and real-time data to create a nutrition plan that adapts to your lifestyle. 
+                            It's like having a personal nutritionist that's available 24/7!
+                        </p>
+                        <p class="mb-4">
+                            Your journey towards improved health and wellness begins with just a few clicks. 
+                            Start with our AI-Enabled Diet Plan Generator today and embrace the revolution in personalized nutrition.
+                        </p>
+                        <p class="mb-4">
+                            Because when it comes to your health, you deserve nothing less than the best!"
+                        </p>
+                        <a href="#generator" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Generate a diet plan</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="~/img/cookie-gif.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl py-5" id="feature">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">App Features</h5>
+                    <h1 class="mb-5">Awesome Features</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-eye text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Highly personalized</h5>
+                            <p class="m-0">A highly personalized diet plan is tailored to meet an individual's unique needs and preferences.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-layer-group text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Easy to use</h5>
+                            <p class="m-0">Just provide us with some basic information about yourself, including your age, height, weight, activity level, and dietary restrictions. Our AI algorithm will then take this information into account and generate a customized diet plan that meets your individual nutritional needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-edit text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Powered by AI</h5>
+                            <p class="m-0">Our highly personalized diet plan, powered by AI, is revolutionizing the way people approach nutrition.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <div class="container-xxl py-5" id="generator">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Diet plan Generator</h5>
+                    <h1 class="mb-5">Generate a diet plan!</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            @RenderBody()
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
+                    <h1 class="mb-5">Get In Touch!</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <p class="text-center mb-4"></p>
+                            <form action="mailto:rosengeorgiew3@gmail.com" method="POST">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email-contact" placeholder="Your Email" name="email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" name="message"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Address</h4>
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>15 West Street, Reading RG1 1TT United Kingdom
+                        </p>
+                        <p><i class="fa fa-phone-alt me-3"></i>0118 957 4680</p>
+                        <p><i class="fa fa-envelope me-3"></i>sales@fitcookie.co.uk</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/fitcookieuk"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/FitCookieStores"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/fitcookieuk/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/fit-cookie-uk"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Quick links</h4>
+                        <a class="btn btn-link" href="#about">About Us</a>
+                        <a class="btn btn-link" href="#contact">Contact Us</a>
+                        <a class="btn btn-link" href="#feature">Features</a>
+                        <a class="btn btn-link" href="#generator">Diet plan generator</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Newsletter</h4>
+                        <p>Join our Newsletter</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary-gradient fs-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">FitCookieAi</a>, All Right Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed By <a class="border-bottom" href="https://www.linkedin.com/in/alexander-nestorov-283b881b8/">Alexander Nestorov</a>
+                            </br>
+                            Distributed By <a class="border-bottom" href="https://www.linkedin.com/in/rossgeorgiev/" target="_blank">Rosen Rosenov</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <div id="logo">
+                                    <h1>Powered by </h1>
+                                    <img class="img-fluid" src="~/img/openAI_logo.png" style="height: 50px; margin-left: 10px;" alt="FitCookieUK_Snapshot">
+                                    <h1>OpenAI</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/counterup/counterup.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/js/SignUp.js"></script>
+    <script src="~/js/site.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/js/main.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            ///////////////////////////////////////////////////////////////////////
+            const stripe = Stripe("@this.Context.Session.GetString("PublicKey")");
+            const elements = stripe.elements();
+            const card = elements.create('card');
+            card.mount('#card-element');
+
+            card.addEventListener('change', function (event) {
+                const displayError = document.getElementById('card-errors');
+                if (event.error) {
+                    displayError.textContent = event.error.message;
+                } else {
+                    displayError.textContent = '';
+                }
+            });
+
+            $('#submit-payment').on('click', function (e) {
+                e.preventDefault();
+                stripe.createToken(card).then(function (result) {
+                    if (result.error) {
+                        console.log(result.error.message);
+                    } else {
+                        // Replace with your own MVC endpoint URL
+                        const mvcEndpointUrl = '/Home/StripePayment';
+                        const paymentData = {
+                            amount: $('#amount').val(),
+                            currency: $('#currency').val(),
+                            description: $('#description').val(),
+                            source: result.token.id,
+                        };
+
+                        $.ajax({
+                            url: mvcEndpointUrl,
+                            method: 'POST',
+                            data: paymentData,
+                            success: function (response) {
+                                console.log(response.status);
+
+                                if (response.status == 201) {
+                                    console.log('are we');
+                                    submitForm();
+                                }
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                console.log('Error:', errorThrown);
+                            },
+                        });
+                    }
+                });
+            });
+
+            // ----------------------------------------------------- Submit input for diet plan - start -------------------------------------------------------
+            function submitForm() {
+                $('#loading-container').show();
+                var data = $("#register-account-form").serialize();
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/SubmitInput',
+                    contentType: 'application/x-www-form-urlencoded; charset=UTF-8', // when we use .serialize() this generates the data in query string format. this needs the default contentType (default content type is: contentType: 'application/x-www-form-urlencoded; charset=UTF-8') so it is optional, you can remove it
+                    data: data,
+                    success: function (result) {
+                        //alert('Successfully received Data ');
+                        var jsonString = JSON.stringify(result, null, "\t")
+                            .replace(/\n/g, "<br>").replace(/\\n/g, "<br>").replace(/"/g, "");
+
+                        $("#result-container").find("span").html(jsonString);
+                        $('#loading-container').hide();
+                        $("#result-container").show();
+
+                        //clear validation errors
+                        $("#age-validation").html('');
+                        $("#height-validation").html('');
+                        $("#weight-validation").html('');
+                        $("#general-validation-error").html('');
+
+                        //reset form and clean user input
+                        $('#last-fieldset-li').removeClass("active");
+                        $('#sixth-fieldset-li').removeClass("active");
+                        $('#fifth-fieldset-li').removeClass("active");
+                        $('#fourth-fieldset-li').removeClass("active");
+                        $('#third-fieldset-li').removeClass("active");
+                        $('#second-fieldset-li').removeClass("active");
+                        $('#first-fieldset-li').addClass("active");
+
+                        $('#last-fieldset').hide();
+                        $('#sixth-fieldset').hide();
+                        $('#fifth-fieldset').hide();
+                        $('#fourth-fieldset').hide();
+                        $('#third-fieldset').hide();
+                        $('#second-fieldset').hide();
+
+                        $('#first-fieldset').show();
+                        $('#first-fieldset').css({'opacity': 1 });
+
+                        $("#weight").val('');
+                        $("#targetWeight").val('');
+                        $("#height").val('');
+                        $("#BMI").val('');
+                        $("#ocupation").val('');
+                        $("#DietaryRestrictions").text('');
+                        $("#foodPreferences").text('');
+
+                        // reset form and clean user input
+
+                        console.log(result);
+                    },
+                    error: function () {
+                        $('#loading-container').hide();
+                        alert('Failed to receive the Data');
+                        console.log('Failed ');
+                    }
+                })
+            }
+            // ----------------------------------------------------- Submit input for diet plan - end -------------------------------------------------------
+
+            // ------------------------------------------------------------ Logout - start ------------------------------------------------------------------
+            $('.btn-logout').click(function () {
+                $.ajax({
+                    url: '/Home/Logout',
+                    type: 'POST',
+                    success: function (response) {
+                        // you can process the response here
+                        console.log(response);
+                        if (response.code === 201) {
+                            $("#authentication-options").show();
+                            $("#hasAccount").show();
+                            $("#noAccount").hide();
+                            $("#authenticated").hide();
+                            $("#btn-next-step-1").hide();
+
+                            console.log('Logged out successfully!');
+                        } else {
+                            console.log(response.message);
+                        }
+                    },
+                    error: function () {
+                        console.log('An error occurred while trying to log out.');
+                    }
+                });
+            });
+            // ------------------------------------------------------------ Logout - end --------------------------------------------------------------------
+
+            // ----------------------------------------------------- Kiosk Mode - start -------------------------------------------------------
+            function isKioskMode() {
+                return (window.outerHeight === window.screen.height && window.outerWidth === window.screen.width) ||
+                    (window.fullScreen) ||
+                    (window.innerWidth === window.screen.width && window.innerHeight === window.screen.height);
+            }
+
+            var kioskMode = isKioskMode();
+
+            $.ajax({
+                type: 'POST',
+                url: '/Home/IsInKioskMode',
+                contentType: 'application/x-www-form-urlencoded; charset=UTF-8', 
+                data: { IsInKioskMode: kioskMode },
+                success: function (result) {
+                    console.log(result);
+                },
+                error: function () {
+                    alert('Failed to receive the Data');
+                    console.log('Failed ');
+                }
+            })
+
+            $('input[type=radio][name=HasAccount]').change(function() {
+                if (this.value == 'true') {
+                    $('#hasAccount').show();
+                    $('#noAccount').hide();
+
+                    $('#btn-login').show();
+                    $('#btn-sign-up').hide();
+                }
+                else if (this.value == 'false') {
+                    $('#hasAccount').hide();
+                    $('#noAccount').show();
+
+                    $('#btn-login').hide();
+                    $('#btn-sign-up').show();
+                }
+            });
+            // ----------------------------------------------------- Kiosk Mode - end -------------------------------------------------------
+
+            // -------------------------------------------- Hide elements when page loads - start -------------------------------------------
+            $('#noAccount').hide();
+            $("#result-container").hide();
+            $('#loading-container').hide();
+            $('#loading-container2').hide();
+            // -------------------------------------------- Hide elements when page loads - end -------------------------------------------
+
+            //----------------------------------------------------------- Login - start -------------------------------------------------------
+            $('#btn-login').on('click', function (e) {
+                e.preventDefault();
+
+                // Gather the necessary form data (Email and Password)
+                var email = $('#email-login').val();
+                var password = $('#password-login').val();
+
+                // Create a JavaScript object to represent the LoginVM model
+                var loginData = {
+                    Email: email,
+                    Password: password
+                };
+
+                // Make the AJAX request to the Home controller's Login method
+
+                $('#loading-container2').show();
+                $("#authentication-options").hide();
+                $("#hasAccount").hide();
+                $("#noAccount").hide();
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/Login',
+                    data: loginData,
+                    dataType: 'json',
+                    success: function (response) {
+                        if (response.code === 201) {
+                            $('#loading-container2').hide();
+                            $("#btn-login").hide();
+                            $("#btn-sign-up").hide();
+
+                            $("#btn-next-step-1").show();
+                            $("#authenticated").find("#user-names").text(response.names);
+                            $("#authenticated").show();
+                            console.log('Login successful');
+                        } else if (response.code === 400) {
+                            $('#loading-container2').hide();
+
+                            $("#authentication-options").show();
+                            $("#hasAccount").show();
+                            $("#noAccount").show();
+
+                            $("#login-authentication-error").show();
+                            $("#login-authentication-error").find("#login-authentication-error-message").text(response.message);
+                            console.log('Invalid data');
+                        } else if (response.code === 200) {
+                            $('#loading-container2').hide();
+                            $("#authentication-options").show();
+                            $("#hasAccount").show();
+                            $("#noAccount").show();
+                            // Handle unsuccessful login attempt
+                            console.log('Login failed');
+                        }
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        $('#loading-container2').hide();
+                        $("#authentication-options").show();
+                        $("#hasAccount").show();
+                        $("#noAccount").show();
+                        // Handle any errors that occurred during the AJAX request
+                        console.log('Error: ' + textStatus + ' ' + errorThrown);
+                    }
+                });
+            });
+            //----------------------------------------------------------- Login - end -------------------------------------------------------
+
+            //-------------------------------------------------------- SignUp - start -------------------------------------------------------
+            $('#btn-sign-up').on('click', function (e) {
+                e.preventDefault();
+
+                // Gather the necessary form data
+                var email = $('#email-signup').val();
+                var firstName = $('#firstName').val();
+                var lastName = $('#lastName').val();
+                var password = $('#password').val();
+                var confirmPassword = $('#confirmPassword').val();
+                var gender = $('#GenderList').val();
+                var dob = $('#age').val();
+
+                // Create a JavaScript object to represent the SignUpVM model
+                var signUpData = {
+                    Email: email,
+                    FirstName: firstName,
+                    LastName: lastName,
+                    Password: password,
+                    ConfirmPassword: confirmPassword,
+                    Gender: gender,
+                    DOB: dob
+                };
+
+                console.log(signUpData);
+
+                // Make the AJAX request to the Home controller's SignUp method
+                $('#loading-container2').show();
+
+                $("#authentication-options").hide();
+                $("#hasAccount").hide();
+                $("#noAccount").hide();
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/SignUp',
+                    data: signUpData,
+                    dataType: 'json',
+                    success: function (response) {
+                        if (response.code === 201) {
+                            $('#loading-container2').hide();
+                            $("#btn-login").hide();
+                            $("#btn-sign-up").hide();
+
+                            $("#sign-up-authentication-error").hide();
+
+                            $("#btn-next-step-1").show();
+                            $("#authenticated").find("#user-names").text(response.names);
+                            $("#authenticated").show();
+
+                            console.log(response.message);
+                        } else if (response.code === 400) {
+                            $('#loading-container2').hide();
+
+                            $("#authentication-options").show();
+                            $("#hasAccount").show();
+                            $("#noAccount").show();
+
+                            $("#sign-up-authentication-error").show();
+                            $("#sign-up-authentication-error").find("#sign-up-authentication-error-message").text(response.message);
+                            console.log(response.message);
+                        } else if (response.code === 200) {
+                            $('#loading-container2').hide();
+
+                            $("#authentication-options").show();
+                            $("#hasAccount").show();
+                            $("#noAccount").show();
+
+                            $("#sign-up-authentication-error").show();
+                            $("#sign-up-authentication-error").find("#sign-up-authentication-error-message").text(response.message);
+                            console.log(response.message);
+                        }
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        $('#loading-container2').hide();
+
+                        $("#authentication-options").show();
+                        $("#hasAccount").show();
+                        $("#noAccount").show();
+
+                        // Handle any errors that occurred during the AJAX request
+                        console.log('Error: ' + textStatus + ' ' + errorThrown);
+                    }
+                });
+            });
+            //-------------------------------------------------------- SignUp - end -------------------------------------------------------
+
+            //--------------------------------------------- Download the PDF file when the button is clicked - start -----------------------------------------
+            $("#download-btn").click(function () {
+                var HTML_Width = $("#result-container").find("#pdf-content").width();
+                var HTML_Height = $("#result-container").find("#pdf-content").height();
+                var top_left_margin = 15;
+                var PDF_Width = HTML_Width + (top_left_margin * 2);
+                var PDF_Height = (PDF_Width * 1.5) + (top_left_margin * 2);
+                var canvas_image_width = HTML_Width;
+                var canvas_image_height = HTML_Height;
+
+                var totalPDFPages = Math.ceil(HTML_Height / PDF_Height) - 1;
+
+                html2canvas($("#result-container").find("#pdf-content")[0]).then(function (canvas) {
+                    var imgData = canvas.toDataURL("image/jpeg", 1.0);
+                    var pdf = new jsPDF('p', 'pt', [PDF_Width, PDF_Height]);
+                    pdf.addImage(imgData, 'JPG', top_left_margin, top_left_margin, canvas_image_width, canvas_image_height);
+                    for (var i = 1; i <= totalPDFPages; i++) {
+                        pdf.addPage(PDF_Width, PDF_Height);
+                        pdf.addImage(imgData, 'JPG', top_left_margin, -(PDF_Height * i) + (top_left_margin * 4), canvas_image_width, canvas_image_height);
+                    }
+                    pdf.save("Your_Diet_Plan.pdf");
+                });
+            });
+            //--------------------------------------------- Download the PDF file when the button is clicked - end -----------------------------------------
+
+            //---------------------------------------------------------- Print diet plan - tart ------------------------------------------------------------
+            $('#print-btn').click(function (e) {
+                e.preventDefault();
+
+                // Create a copy of the target div
+                var $printContent = $('#result-container').clone();
+
+                // Remove the download button from the copied content
+                $printContent.find('#download-btn').remove();
+
+                // Remove the print button from the copied content
+                $printContent.find('#print-btn').remove();
+
+                // Create a new window
+                var printWindow = window.open('', '', 'width=800,height=800');
+
+                // Write the modified HTML to the new window
+                printWindow.document.write('<html><head><title>Diet Plan</title></head><body>');
+                printWindow.document.write($printContent.html());
+                printWindow.document.write('</body></html>');
+                printWindow.document.close();
+                printWindow.print();
+            });
+            //---------------------------------------------------------- Print diet plan - end ------------------------------------------------------------
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

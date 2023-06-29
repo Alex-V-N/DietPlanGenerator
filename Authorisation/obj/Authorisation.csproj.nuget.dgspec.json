@@ -1,0 +1,404 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\FitCookieAIClient-deployment\\Authorisation\\Authorisation.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\FitCookieAIClient-deployment\\Authorisation\\Authorisation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FitCookieAIClient-deployment\\Authorisation\\Authorisation.csproj",
+        "projectName": "Authorisation",
+        "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\Authorisation\\Authorisation.csproj",
+        "packagesPath": "C:\\Users\\trail\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FitCookieAIClient-deployment\\Authorisation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\System\\Applications\\VisualStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_ApplicationService\\FitCookieAI_ApplicationService.csproj": {
+                "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_ApplicationService\\FitCookieAI_ApplicationService.csproj"
+              },
+              "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj": {
+                "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_ApplicationService\\FitCookieAI_ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_ApplicationService\\FitCookieAI_ApplicationService.csproj",
+        "projectName": "FitCookieAI_ApplicationService",
+        "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_ApplicationService\\FitCookieAI_ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\trail\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\System\\Applications\\VisualStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj": {
+                "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj"
+              },
+              "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj": {
+                "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj",
+        "projectName": "FitCookieAI_Data",
+        "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj",
+        "packagesPath": "C:\\Users\\trail\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\System\\Applications\\VisualStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\FitCookieAIClient-deployment\\GlobalVariables\\GlobalVariables.csproj": {
+                "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\GlobalVariables\\GlobalVariables.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj",
+        "projectName": "FitCookieAI_Repository",
+        "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\FitCookieAI_Repository.csproj",
+        "packagesPath": "C:\\Users\\trail\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\System\\Applications\\VisualStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj": {
+                "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\FitCookieAI_Data\\FitCookieAI_Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\FitCookieAIClient-deployment\\GlobalVariables\\GlobalVariables.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\FitCookieAIClient-deployment\\GlobalVariables\\GlobalVariables.csproj",
+        "projectName": "GlobalVariables",
+        "projectPath": "E:\\Projects\\FitCookieAIClient-deployment\\GlobalVariables\\GlobalVariables.csproj",
+        "packagesPath": "C:\\Users\\trail\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\FitCookieAIClient-deployment\\GlobalVariables\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\System\\Applications\\VisualStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
